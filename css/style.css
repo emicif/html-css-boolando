@@ -71,9 +71,9 @@
 }
 
 
-/* hover cambio immagine */
+/* hover cambio immagine 1 */
 
-.card {
+.card, .card-2 {
     display: block;
 }
 
@@ -82,17 +82,21 @@
 }
 
 .img-1:hover {
-    background-image: url(../img/1b.webp);
+    
     display: inline-block
 }
 
-.cambioimm:hover .card {
+.cambioimm:hover .card, .cambioimm:hover .card-2, .cambioimm:hover .card-3, .cambioimm:hover .card-4, .cambioimm:hover .card-5, .cambioimm:hover .card-6 {
     display: none;
 }
 
 .cambioimm:hover .img-1 {
     display: block;
 }
+
+/* fine cambio immagine 1 */
+
+
 
 
 
@@ -110,19 +114,6 @@
 .span:hover .heart {
     color: red;
 }
-
-/*card */
-
-/*.card {
-    display: block;
-}
-.card:hover .secondcard{
-    display: block;
-}*/
-
-
-
-
 
 
 /* debug */
