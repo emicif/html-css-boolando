@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.structure {
+    border: 1px dashed red;
+    height: 1000px;
+    width: 80%;
+    margin: 15px auto;
+}
+
+
+.container-1 {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card, .card-2, .card-3{
+    position: relative;
+    height: 400px;
+}
+
+.container-2 {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.container-3 {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+/* debug */
+
+.debug .container-1 {
+    height: 400px;
+    width: 270px;
+    background-color: brown;
+}
+
+.debug .container-2 {
+    height: 400px;
+    width: 270px;
+    background-color: brown; 
+}
+
+.debug .container-3 {
+    height: 400px;
+    width: 270px;
+    background-color: brown; 
+}
