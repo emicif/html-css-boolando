@@ -20,11 +20,15 @@
 
 
 
-.card, .card-2, .card-3, .card-4, .card-5, .card-6 {
+.card, .card-2, .card-3, .card-4, .card-5, .card-6, {
     height: 400px;
     object-fit: cover;
 }
 
+
+.card, .card-2, .card-3, .card-4, .card-5, .card-6 {
+    height: 400px;
+}
 
 
 .container-1 {
@@ -68,6 +72,29 @@
 }
 
 
+.card {
+    display: block;
+}
+
+.img-1 {
+    display: none;
+}
+
+.img-1:hover {
+    background-image: url(../img/1b.webp);
+    display: inline-block
+}
+
+.cambioimm:hover .card {
+    display: none;
+}
+
+.cambioimm:hover .img-1 {
+    display: block;
+}
+
+
+
 /*card */
 
 /*.card {
@@ -77,10 +104,7 @@
     display: block;
 }*/
 
-.card:hover {
-    display: none;
-    background-image: url(../img/1b.webp);
-}
+
 
 
 
