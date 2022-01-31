@@ -19,14 +19,14 @@
     margin-right: 20px;
 }
 
-.card, .card-2, .card-3{
+.card, .card-2, .card-3, .card-4, .card-5, .card-6 {
     position: relative;
     height: 400px;
 }
 
 .container-2 {
     float: left;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 
@@ -36,8 +36,27 @@
     margin-top: 20px;
 }
 
+.container-4 {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.container-5 {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.container-6 {
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
 
 /* debug */
+
 
 .debug .container-1 {
     height: 400px;
@@ -52,6 +71,23 @@
 }
 
 .debug .container-3 {
+    height: 400px;
+    width: 270px;
+    background-color: brown; 
+}
+
+.debug .container-4 {
+    height: 400px;
+    width: 270px;
+    background-color: brown; 
+}
+
+.debug .container-5 {
+    height: 400px;
+    width: 270px;
+    background-color: brown; 
+}
+.debug .container-6 {
     height: 400px;
     width: 270px;
     background-color: brown; 
