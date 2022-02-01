@@ -91,25 +91,29 @@
 /* icons */
 
 .icons,
-.icons-2 {
+.icons-2,
+.icons-6 {
     position: absolute;
     bottom: 10px;
     color: white;
-    font-size: 10px;
+    font-size: 11px;
     padding: 3px;
     
 }
 
 .icons {
     background-color: red;
-    left: 10px;
+    left: 0px;
 }
 
 .icons-2 {
-    left: 40px;
+    left: 35px;
     background-color: green;
-    margin-left: 8px;
+}
 
+.icons-6 {
+    background-color: green;
+    left: 0%;
 }
 
 
