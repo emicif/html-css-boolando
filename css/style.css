@@ -121,13 +121,18 @@
 
 /* didascalia */
 
-.titolo {
+.titolo,
+.costo,
+.sconto {
     font-size: 10px;
 }
 
 .costo {
     color: red;
-    font-size: 10px;
+}
+
+.sconto {
+    text-decoration: line-through;
 }
 
 
