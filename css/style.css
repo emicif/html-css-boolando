@@ -52,17 +52,8 @@
 
 /* hover cambio immagine 1 */
 
-.card, .card-2 {
-    display: block;
-}
-
 .img-1 {
     display: none;
-}
-
-.img-1:hover {
-    
-    display: inline-block
 }
 
 .cambioimm:hover .card, 
