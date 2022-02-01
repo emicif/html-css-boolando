@@ -26,6 +26,8 @@
 .img-1 {
     height: 400px;
     position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 
@@ -94,7 +96,7 @@
 .icons-2,
 .icons-6 {
     position: absolute;
-    bottom: 10px;
+    bottom: 65px;
     color: white;
     font-size: 11px;
     padding: 3px;
@@ -114,6 +116,18 @@
 .icons-6 {
     background-color: green;
     left: 0%;
+}
+
+
+/* didascalia */
+
+.titolo {
+    font-size: 10px;
+}
+
+.costo {
+    color: red;
+    font-size: 10px;
 }
 
 
